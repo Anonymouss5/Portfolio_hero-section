@@ -32,7 +32,7 @@ body{
 }
 
 #loader{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -104,7 +104,7 @@ body{
 
 #nav img{
     width: 150px;
-    pointer: cursor;
+    cursor: pointer;
 }
 
 #nav_part a:first-child{
@@ -122,7 +122,7 @@ body{
 #nav_part i{
     margin-left: 30px;
     font-size: 20px;
-    pointer: cursor;
+    cursor: pointer;
 }
 
 #part_1{
@@ -140,7 +140,7 @@ body{
 }
 
 #line{
-    width: 70px;
+    width: 5.5vw;
     height: 7px;
     border-radius: 5px;
     overflow: hidden;
@@ -154,21 +154,21 @@ body{
 }
 
 #left h2{
-    font-size:45px;
+    font-size: 3vw;
     font-weight: 900;
     margin-top: 5px;
 }
 
 #left > img{
-    width: 500px;
-    margin-top: 30px;
+    width: 33vw;
+    margin-top: 1.5vw;
 }
 
 #left > h3{
-    font-size: 22px;
+    font-size: 1.3vw;
     text-transform: uppercase;
-    letter-spacing: 10px;
-    margin-top: 15px;
+    letter-spacing: .8vw;
+    margin-top: 1vw;
     font-weight: 999;
     color: #dadada;
 }
@@ -181,42 +181,40 @@ body{
 #left #it{
     display: flex;
     align-items: center;
-    margin-top: 20px;
-    gap: 20px;
+    margin-top: 1vw;
+    gap: 1vw;
 }
 
 #left #it > img{
-    width: 80px;
+    width: 6vw;
 }
 
 #left #it > h3{
-    font-size: 18px;
+    font-size: 1.2vw;
     text-transform: uppercase;
-    letter-spacing: 8px;
-    margin-top: 15px;
+    letter-spacing: .7vw;
     font-weight: 999;
     opacity: .9;
     margin: auto 0;
 }
 
 #contact{
-    position: absolute;
-    margin-top: 160px;
+    margin-top: 25%;
 }
 
 #contact h3{
-    font-size: 15px;
+    font-size: 1.1vw;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 0.6vw;
     margin-top: 15px;
     font-weight: 999;
     opacity: .9;
-    margin-bottom: 10px;
+    margin-bottom: 0.7vw;
 }
 
 #contact h4{
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 1vw;
+    line-height: 1.2vw;
 }
 
 #contact h4 span{
@@ -229,8 +227,8 @@ body{
 }
 
 #right img{
-    width: 700px;
-    margin-left: 80px;
+    width: 90%;
+    margin-left: 10%;
 }
 
 #main > img{

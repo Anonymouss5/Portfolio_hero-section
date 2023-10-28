@@ -2,46 +2,46 @@ gsap.from("#nav", {
     y: 20,
     opacity: 0,
     duration: .5,
-    delay: 5.5
+    delay: 5
 })
 
 gsap.from(".right", {
     x: 50,
-    delay: 6.5,
+    delay: 5.5,
     opacity: 0
 })
 
 gsap.from("#left #inner_line", {
     width: 0,
     duration: 1,
-    delay: 6.5
+    delay: 5.5
 })
 
 gsap.from("#left .Left", {
     opacity: 0,
     x: -20,
     stagger: 0.3,
-    delay: 6.5
+    delay: 5.5
 })
 
 gsap.from("#right img", {
     scale: 0,
     duration: 1,
-    delay: 6.5
+    delay: 5
 })
 
 gsap.from("#contact", {
     y: 30,
     opacity: 0,
     stagger: 0.5,
-    delay: 6.5
+    delay: 5.5
 })
 
 gsap.from("#main .bubble",{
     x: 30,
     opacity: 0,
     scale: 0,
-    delay: 7
+    delay: 6
 })
 
 var menu = document.querySelector("#menu");
